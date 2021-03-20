@@ -1,8 +1,0 @@
-#This is rules made by wjl for studying purpose
-#use $sudo snort -c /etc/snort/test.rules 
-#to run the rule
-#
-#
-alert tcp any any -> any 8080 (msg:”TEST ALERT”;sid:1000002;rev:1;\
-content:"I am IDS Homework I"; flags: A ; offset: 99 ; depth: 101)
-
